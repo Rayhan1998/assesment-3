@@ -1,5 +1,7 @@
 let buttons = document.querySelectorAll("button");
 
+//  note for reviewer couldve made event listeners for each button but thought this would be more efficiant (:
+
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function(e) {
     if (e.target.innerText === "My Favorite Color") {
