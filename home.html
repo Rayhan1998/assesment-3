@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World</p>
+
+      <img
+        src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-mediumSquareAt3X-v2.jpg"
+        alt="cat-image"
+        id="cat-image"
+      />
+
+      <ul>
+        <li class="compliments">Great Smile</li>
+        <li class="compliments">You'r the best</li>
+        <li class="compliments">Your hair is amazing</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+
+        <p>How did you hear about us?</p>
+        <input type="checkbox" id="google-1" name="google" value="Google" />
+        <label for="google-1">Google</label>
+        <input type="checkbox" id="friend" name="friend" value="A friend" />
+        <label for="friend">A friend</label>
+        <input type="checkbox" id="other" name="other" value="other" />
+        <label for="other">Other</label>
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>

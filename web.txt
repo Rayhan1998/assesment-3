@@ -1,0 +1,10 @@
+How does the internet Work?
+
+The internet is made up of lots of computers. Big websites we try to search on the internet are handled by big computers which are known as servers. When we search
+for a websites such as Google we send a request to their servers. Their servers handles he request and sends back information to the user IP address to display the results on their computers
+which are HTML,CSS, and Javscript files.
+
+What Happens when you click on a Link?
+
+When you click on a link your browsers reads the URL which is the name of the website that holds the page informations that you clicked on. Your browser then tries to get the
+IP address for the website so that you can visit the website. Once your at the website your browser renders the HTML,css and Javscript files.
