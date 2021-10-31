@@ -11,6 +11,10 @@ nav {
   border-bottom: 2px solid orange;
 }
 
+ul {
+  list-style: none;
+}
+
 ol {
   padding-left: 0;
 }
